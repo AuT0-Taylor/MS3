@@ -1,131 +1,151 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+[To view my project live click here!]()
 
-Welcome harri taylor,
+![front of web page](/documents/evidence/front-page.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of Contents
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+* [User Experience](#user-experience)
+* [Visual Designs](#visual-design)
+* [Features](#features)
+* [Technologies](#technologies)
+* [Testing](#testing)
+* [Bug fixes](#Bug-Issues)
+* [Deployment](#deployment)
+* [Credit](#credit)
 
-## Gitpod Reminders
+## User Experience
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+  - ### A. New Vistor Goals
 
-`python3 -m http.server`
+     1. As a new vistor i want an easy to understand navigation to the website to allow usage for all ages and web experience.
+     2. As a new vistor be able to understand the websites organisation and purpose.
+     3. As a new vistor a not too flashy color scheme to remain professional and keep the focus the purpose.
+     4. As a new vistor see if there are any other ways to follow this website via social media
 
-A blue button should appear to click: _Make Public_,
+  - ### B. Returning Vistor goals 
+    
+    1. To keep intrest i want to allow the user to find the resource page effectively
+    2. To keep intrest i want to be able to offer a way to contact the organisation
+    3. To keep intrest i will leave a section in the footer displaying when you can contact us
 
-Another blue button should appear to click: _Open Browser_.
+  - ### C. Common user goals 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+    3. To keep intrest i want the user to be able to subscribe to the website for any new resources
 
-A blue button should appear to click: _Make Public_,
+## Visual Designs
 
-Another blue button should appear to click: _Open Browser_.
+- ### wireframes
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - #### main page wireframe
 
-To log into the Heroku toolbelt CLI:
+     !
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - #### resources page wireframe
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+    !
 
-### Connecting your Mongo database
+  - #### contact page wireframe
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+    !
 
-------
+- ### Color Scheme
+   
+   - 
 
-## Release History
+- ### Typography
+   
+   - 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Features
 
-**June 18, 2024,** Add Mongo back into template
+ - ### Feature - Nav bar
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+    - Nav bar inline with logo at the top of all 3 pages to give a consistent and common theme to the website for the user to easily navigated through the pages and a href linked to the logo to bring the user back to the home page.
+    
+    ![Nav Bar](/documents/evidence/nav-bar.png)
 
-**May 28 2024:** Fix Mongo and Links installs
+ - ### Feature - Home page
 
-**April 26 2024:** Update node version to 16
+    - 
+ - ### Feature - Footer
 
-**September 20 2023:** Update Python version to 3.9.17.
+    - 
+ - ### Feature - About us cards
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    - 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ - ### Feature - Resource page tabs
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ -
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ - ### Feature - Contact Form 
+     
+-
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Technologies
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- ### coding languages
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- [HTML5](https://en.wikipedia.org/wiki/HTML)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Tools and programs used in the process
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+-
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### different Browsers
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- FireFox version 124.0 (64-bit)
+- Chrome Version 123.0.6312.59 (Official Build) (64-bit)
+- Microsoft Edge Version 122.0.2365.80 (Official build) (64-bit)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+All browers listed have been tested.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Html validations
 
-------
+-
 
-## FAQ about the uptime script
+### CSS validations
 
-**Why have you added this script?**
+-
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Issues while validating
 
-**How will this affect me?**
+-
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Bug fixes 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Developer story
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- 
 
-**So….?**
+## Deployment
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### If you would like to clone my repository
 
-**Can I opt out?**
+- find my repository here: ** on GitHub!
+- Here you can click the green highlighted button "Code"
+- From here select codespaces and "create a codespace on main"
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### How i deployed this site 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- As you open and find my GitHub repository, find the settings tab
+- Once in the Repository settings on the left hand side will be 'Pages'
+- now selected the drop-down menu from source and select "Deploy From Branch"
+- now thay its live from the main branch all commits pushed will be shown live
 
-**Anything more?**
+## Credit 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Cover images and Insperations
 
----
 
-Happy coding!
+
+### Code Content
+
+- 
+
+- 
+
+- 
