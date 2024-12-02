@@ -1,6 +1,6 @@
 [To view my project live click here!]()
 
-![front of web page](/documents/evidence/front-page.png)
+!
 
 ## Table of Contents
 
