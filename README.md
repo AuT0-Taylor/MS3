@@ -149,3 +149,8 @@ All browers listed have been tested.
 - 
 
 - 
+
+### notes 
+ 
+ - Unfinished project due to my time and attention being split with a lot of new financial responsibilities I could not foresee
+ - MS2 will be finished 10/12/24 - self-set deadline, as well as this project with the school year coming to a close I will have time out of work to allocate to my projects
